@@ -12,24 +12,7 @@
 7. [运行自制程序](#运行自制程序)
 
 ## 安装WSL
-
-1. **打开PowerShell以管理员身份运行**：
-   - 右键点击开始菜单，选择“Windows PowerShell（管理员）”。
-
-2. **安装WSL**：
-   - 运行以下命令以安装WSL：
-     ```
-     wsl --install
-     ```
-   - 此命令将安装默认的Linux发行版（通常是Ubuntu）。
-
-3. **重启计算机**：
-   - 安装完成后，重启计算机以完成设置。
-
-4. **设置Linux发行版**：
-   - 从开始菜单打开已安装的Linux发行版。
-   - 按照提示创建用户帐户和密码。
-
+参照 https://zhuanlan.zhihu.com/p/475462241 安装wsl到windows
 ## 安装Docker并配置代理
 
 1. **下载Docker Desktop**：
