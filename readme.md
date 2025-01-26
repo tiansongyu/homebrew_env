@@ -77,9 +77,10 @@ make -j12
   }
   ```
 
-3. **按照库中的说明进行额外设置**：
-- 在libnx的文档中查找任何特定的环境变量或其他配置步骤，确保开发环境能够正确找到所有需要的库和工具。
-
+3. 进入到docker里面运行，将switch的依赖库的所有头文件复制到本地环境中
+``` bash
+cp -r /opt/devkitpro/portlibs/switch/include /workspace/
+```
 ## 下载模拟器
 
 1. **访问Citron模拟器网站**： [Citron Emulator](https://citron-emu.pro/)
